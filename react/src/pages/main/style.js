@@ -63,6 +63,9 @@ const BoardContents = styled.ul`
   background-color: white;
   padding: 0;
   overflow-y: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
   /* display: flex; */
   /* align-items: center; */

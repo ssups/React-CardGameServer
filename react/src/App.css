@@ -3,7 +3,6 @@
   min-height: 100vh;
   margin: 0;
   animation: intro 2s;
-  overflow-y: hidden;
   /* background-image: url(https://image.utoimage.com/preview/cp872102/2019/09/201909008215_500.jpg); */
   /* background-image: url(https://image.utoimage.com/preview/cp872102/2017/09/201709002412_500.jpg);
   background-size: cover;
@@ -29,6 +28,7 @@
   background-position: center;
   opacity: 1;
   animation: intro 2s;
+  overflow: hidden;
 }
 .Header {
   animation: intro 2s;

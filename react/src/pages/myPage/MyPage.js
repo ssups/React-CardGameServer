@@ -128,8 +128,8 @@ const MyPage = () => {
           >
             카드덱
           </div>
-          {/* <button onClick={play}>재생</button>
-          <button onClick={stop}>정지</button> */}
+          <button onClick={play}>재생</button>
+          <button onClick={stop}>정지</button>
         </div>
 
         <Inventory>

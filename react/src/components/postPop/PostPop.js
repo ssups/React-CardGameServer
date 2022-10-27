@@ -117,11 +117,11 @@ const PostPop = ({ setIsPostPop, setOrder }) => {
                           style={{
                             marginLeft: " 15px",
                             borderBottom: "1px solid black",
-                            width: "100%",
                             paddingLeft: "10px",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "space-between",
+                            flexGrow: "1",
                           }}
                         >
                           <span>{el.text}</span>

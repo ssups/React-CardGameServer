@@ -23,8 +23,6 @@ const LoginCheck = ({ component }) => {
 };
 
 function App() {
-  const location = Location();
-  console.log(location);
   const [onLoad, setOnLoad] = useState(false);
   const [isLoginPage, setIsLoginPage] = useState(false);
   const dispatch = useDispatch();

@@ -3,6 +3,7 @@
   min-height: 100vh;
   margin: 0;
   animation: intro 2s;
+  overflow-y: hidden;
   /* background-image: url(https://image.utoimage.com/preview/cp872102/2019/09/201909008215_500.jpg); */
   /* background-image: url(https://image.utoimage.com/preview/cp872102/2017/09/201709002412_500.jpg);
   background-size: cover;
@@ -20,7 +21,6 @@
   height: max-content;
   min-height: calc(100vh - 100px);
   width: 100%;
-  overflow: scroll;
   /* background-image: url(https://image.utoimage.com/preview/cp872102/2019/09/201909008215_500.jpg); */
   /* background-image: url("https://i.pinimg.com/550x/0e/ed/0e/0eed0e17cfb2ad11f8687db1065539ee.jpg"); */
 

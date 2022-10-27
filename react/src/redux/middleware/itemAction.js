@@ -5,7 +5,7 @@ function openCardPack(id, setPopUp) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/open_card_pack",
+      url: "http://localhost:3000/open_card_pack",
       data: { id },
     });
     alert(response);
@@ -20,7 +20,7 @@ function openRareCardPack(id, setPopUp) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/open_rare_card_pack",
+      url: "http://localhost:3000/open_rare_card_pack",
       data: { id },
     });
     alert(response);
@@ -35,7 +35,7 @@ function openUltraRareCardPack(id, setPopUp) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/open_ultraRare_card_pack",
+      url: "http://localhost:3000/open_ultraRare_card_pack",
       data: { id },
     });
     alert(response);
@@ -50,7 +50,7 @@ function openPointPack(id, setPopUp, amount) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/open_point_pack",
+      url: "http://localhost:3000/open_point_pack",
       data: { id, amount },
     });
     alert(response);
@@ -65,7 +65,7 @@ function buyItem(id, setPopUp, item, price, buyAmount, play) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/buy_item",
+      url: "http://localhost:3000/buy_item",
       data: { id, item, price, buyAmount },
     });
     alert(response);
@@ -81,7 +81,7 @@ function giftPoint(id, targetId, setPopUp, item, price, giftAmount, play) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/gift_point",
+      url: "http://localhost:3000/gift_point",
       data: { id, targetId, item, price, giftAmount },
     });
     alert(response);

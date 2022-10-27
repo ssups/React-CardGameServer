@@ -1,6 +1,6 @@
 import "./App.css";
 import { Header } from "./components";
-import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate, Location } from "react-router-dom";
 import { Login, Loading, Main, Shop, MyPage, PublicBoard, NoticeBoard, CardBook } from "./pages";
 import { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -23,6 +23,8 @@ const LoginCheck = ({ component }) => {
 };
 
 function App() {
+  const location = Location();
+  console.log(location);
   const [onLoad, setOnLoad] = useState(false);
   const [isLoginPage, setIsLoginPage] = useState(false);
   const dispatch = useDispatch();

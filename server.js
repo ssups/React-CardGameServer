@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 const { sequelize } = require("./model");
 const cors = require("cors");
 const dot = require("dotenv");
@@ -65,5 +65,5 @@ app.use(image);
 app.use(post);
 app.use(comment);
 
-// 정적폴더 경로설정
+// 정적폴더 경로설정`
 app.use("/images", express.static(path.join(__dirname, "/images")));

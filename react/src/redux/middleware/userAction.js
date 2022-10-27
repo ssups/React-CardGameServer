@@ -4,7 +4,7 @@ function join(id, nickName, pw, setSwitched) {
   return async (dispatch, getState) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/join",
+      url: "http://localhost:3000/join",
       data: { id, nickName, pw },
     });
     console.log(response);
@@ -21,7 +21,7 @@ function getUserCards(id) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/get_user_cards",
+      url: "http://localhost:3000/get_user_cards",
       data: { id },
     });
     if (response) dispatch({ type: "GET_USER_CARDS", payload: { id, data: response } });
@@ -32,7 +32,7 @@ function getUserItems(id) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:4000/get_user_items",
+      url: "http://localhost:3000/get_user_items",
       data: { id },
     });
     if (response) dispatch({ type: "GET_USER_ITEMS", payload: response });
@@ -42,7 +42,7 @@ function getUserItems(id) {
 function getAllUsersPoints() {
   return async (dispatch, state) => {
     const { data: response } = await axios({
-      url: "http://localhost:4000/get_users_point",
+      url: "http://localhost:3000/get_users_point",
     });
     response && dispatch({ type: "GET_ALL_USERS_POINTS", payload: response });
   };

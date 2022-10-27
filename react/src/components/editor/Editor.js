@@ -1,6 +1,7 @@
 import React from "react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
+import { Location } from "react-router-dom";
 import axios from "axios";
 
 const Editor = ({ setPostData, mode, data, setModifyData }) => {
@@ -14,12 +15,12 @@ const Editor = ({ setPostData, mode, data, setModifyData }) => {
             data.append("file", file);
             axios({
               method: "post",
-              url: "http://localhost:4000/api/upload",
+              url: "http://localhost:3000/api/upload",
               //   url: "api/upload",
               data,
             }).then(res => {
               resolve({
-                default: `http://localhost:4000/images/${res.data.filename}`,
+                default: `http://localhost:3000/images/${res.data.filename}`,
               });
             });
           });

@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
 import { userAction } from "../../redux/middleware";
 import { ImgSlide } from "./style";
+import AudioPlayer from "react-h5-audio-player";
+import { mainSound } from "../../sounds";
 import {
   Wrap,
   BoardWrap,
@@ -16,14 +17,21 @@ import {
 
 const Main = () => {
   const dispatch = useDispatch();
-  const location = useLocation();
   const rankData = useSelector(state => state.pointReducer.all_users);
+  const audioRef = useRef();
   useEffect(() => {
     dispatch(userAction.getAllUsersPoints());
   }, []);
   console.log(rankData);
   return (
     <div className="contents">
+      <AudioPlayer
+        src={mainSound}
+        autoPlay={true}
+        ref={audioRef}
+        volume={1}
+        style={{ display: "none" }}
+      />
       <Wrap>
         <ImgSlide></ImgSlide>
         <BoardWrap>

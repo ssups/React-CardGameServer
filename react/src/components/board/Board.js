@@ -12,6 +12,7 @@ import {
   Button,
 } from "./style";
 import { postAction } from "../../redux/middleware";
+// okok
 const Board = ({ name, setIsPosting, setIsPostPop, setOrder, order }) => {
   let allPosts = useSelector(state => state.postReducer.allPosts);
   const loginUserId = useSelector(state => state.loginReducer.id);

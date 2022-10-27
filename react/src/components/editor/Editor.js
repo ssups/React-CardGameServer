@@ -15,12 +15,12 @@ const Editor = ({ setPostData, mode, data, setModifyData }) => {
             data.append("file", file);
             axios({
               method: "post",
-              url: "http://localhost:3000/api/upload",
+              url: "http://13.125.105.174/api/upload",
               //   url: "api/upload",
               data,
             }).then(res => {
               resolve({
-                default: `http://localhost:3000/images/${res.data.filename}`,
+                default: `http://13.125.105.174/images/${res.data.filename}`,
               });
             });
           });

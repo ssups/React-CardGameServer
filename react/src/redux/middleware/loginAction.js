@@ -4,7 +4,7 @@ function login(id, pw, move) {
   return async (dispatch, getState) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/login",
+      url: "http://13.125.105.174/login",
       data: { id, pw },
     });
     if (response.success) {
@@ -27,7 +27,7 @@ function loginCheck() {
   return async (dispatch, getState) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/loginCheck",
+      url: "http://13.125.105.174/loginCheck",
       data: { access_token, refresh_token, user_id },
     });
     if (response.re_access_token) sessionStorage.setItem("access_token", response.re_access_token);

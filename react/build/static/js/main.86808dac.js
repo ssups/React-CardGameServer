@@ -35645,12 +35645,10 @@
                           key: "_setupDropMarker",
                           value: function () {
                             var e = this.editor;
-                            e.conversion
-                              .for("editingDowncast")
-                              .markerToHighlight({
-                                model: "drop-target",
-                                view: { classes: ["ck-clipboard-drop-target-range"] },
-                              }),
+                            e.conversion.for("editingDowncast").markerToHighlight({
+                              model: "drop-target",
+                              view: { classes: ["ck-clipboard-drop-target-range"] },
+                            }),
                               e.conversion.for("editingDowncast").markerToElement({
                                 model: "drop-target",
                                 view: function (t, n) {
@@ -39492,12 +39490,10 @@
                                   { priority: "low" }
                                 );
                               }),
-                              e.conversion
-                                .for("downcast")
-                                .attributeToAttribute({
-                                  model: "ckboxImageId",
-                                  view: "data-ckbox-resource-id",
-                                }),
+                              e.conversion.for("downcast").attributeToAttribute({
+                                model: "ckboxImageId",
+                                view: "data-ckbox-resource-id",
+                              }),
                               e.conversion.for("upcast").elementToAttribute({
                                 model: {
                                   key: "ckboxImageId",
@@ -40201,13 +40197,11 @@
                           {
                             key: "_addDefaultH1Conversion",
                             value: function (e) {
-                              e.conversion
-                                .for("upcast")
-                                .elementToElement({
-                                  model: "heading1",
-                                  view: "h1",
-                                  converterPriority: I.get("low") + 1,
-                                });
+                              e.conversion.for("upcast").elementToElement({
+                                model: "heading1",
+                                view: "h1",
+                                converterPriority: I.get("low") + 1,
+                              });
                             },
                           },
                         ],
@@ -43871,12 +43865,10 @@
                                 s = new Bk(t);
                               t.commands.add("uploadImage", s),
                                 t.commands.add("imageUpload", s),
-                                r
-                                  .for("upcast")
-                                  .attributeToAttribute({
-                                    view: { name: "img", key: "uploadId" },
-                                    model: "uploadId",
-                                  }),
+                                r.for("upcast").attributeToAttribute({
+                                  view: { name: "img", key: "uploadId" },
+                                  model: "uploadId",
+                                }),
                                 this.listenTo(
                                   t.editing.view.document,
                                   "clipboardInput",
@@ -44917,12 +44909,10 @@
                                         }
                                       },
                                     }),
-                                    t.conversion
-                                      .for("upcast")
-                                      .elementToAttribute({
-                                        view: a({ name: "a" }, e._createPattern()),
-                                        model: { key: e.id },
-                                      });
+                                    t.conversion.for("upcast").elementToAttribute({
+                                      view: a({ name: "a" }, e._createPattern()),
+                                      model: { key: e.id },
+                                    });
                                 });
                               }
                             },
@@ -45492,24 +45482,20 @@
                                 (this._balloon = e.plugins.get(qh)),
                                 this._createToolbarLinkButton(),
                                 this._enableUserBalloonInteractions(),
-                                e.conversion
-                                  .for("editingDowncast")
-                                  .markerToHighlight({
-                                    model: Bb,
-                                    view: { classes: ["ck-fake-link-selection"] },
-                                  }),
-                                e.conversion
-                                  .for("editingDowncast")
-                                  .markerToElement({
-                                    model: Bb,
-                                    view: {
-                                      name: "span",
-                                      classes: [
-                                        "ck-fake-link-selection",
-                                        "ck-fake-link-selection_collapsed",
-                                      ],
-                                    },
-                                  });
+                                e.conversion.for("editingDowncast").markerToHighlight({
+                                  model: Bb,
+                                  view: { classes: ["ck-fake-link-selection"] },
+                                }),
+                                e.conversion.for("editingDowncast").markerToElement({
+                                  model: Bb,
+                                  view: {
+                                    name: "span",
+                                    classes: [
+                                      "ck-fake-link-selection",
+                                      "ck-fake-link-selection_collapsed",
+                                    ],
+                                  },
+                                });
                             },
                           },
                           {
@@ -50834,18 +50820,14 @@
                                 });
                               }),
                               r.for("upcast").add($y()),
-                              r
-                                .for("editingDowncast")
-                                .elementToStructure({
-                                  model: { name: "table", attributes: ["headingRows"] },
-                                  view: nw(i, { asWidget: !0 }),
-                                }),
-                              r
-                                .for("dataDowncast")
-                                .elementToStructure({
-                                  model: { name: "table", attributes: ["headingRows"] },
-                                  view: nw(i),
-                                }),
+                              r.for("editingDowncast").elementToStructure({
+                                model: { name: "table", attributes: ["headingRows"] },
+                                view: nw(i, { asWidget: !0 }),
+                              }),
+                              r.for("dataDowncast").elementToStructure({
+                                model: { name: "table", attributes: ["headingRows"] },
+                                view: nw(i),
+                              }),
                               r.for("upcast").elementToElement({ model: "tableRow", view: "tr" }),
                               r.for("upcast").add(function (e) {
                                 e.on(
@@ -50869,47 +50851,37 @@
                               r.for("upcast").elementToElement({ model: "tableCell", view: "th" }),
                               r.for("upcast").add(Jy("td")),
                               r.for("upcast").add(Jy("th")),
-                              r
-                                .for("editingDowncast")
-                                .elementToElement({
-                                  model: "tableCell",
-                                  view: rw({ asWidget: !0 }),
-                                }),
+                              r.for("editingDowncast").elementToElement({
+                                model: "tableCell",
+                                view: rw({ asWidget: !0 }),
+                              }),
                               r
                                 .for("dataDowncast")
                                 .elementToElement({ model: "tableCell", view: rw() }),
-                              r
-                                .for("editingDowncast")
-                                .elementToElement({
-                                  model: "paragraph",
-                                  view: iw({ asWidget: !0 }),
-                                  converterPriority: "high",
-                                }),
-                              r
-                                .for("dataDowncast")
-                                .elementToElement({
-                                  model: "paragraph",
-                                  view: iw(),
-                                  converterPriority: "high",
-                                }),
+                              r.for("editingDowncast").elementToElement({
+                                model: "paragraph",
+                                view: iw({ asWidget: !0 }),
+                                converterPriority: "high",
+                              }),
+                              r.for("dataDowncast").elementToElement({
+                                model: "paragraph",
+                                view: iw(),
+                                converterPriority: "high",
+                              }),
                               r
                                 .for("downcast")
                                 .attributeToAttribute({ model: "colspan", view: "colspan" }),
-                              r
-                                .for("upcast")
-                                .attributeToAttribute({
-                                  model: { key: "colspan", value: $w("colspan") },
-                                  view: "colspan",
-                                }),
+                              r.for("upcast").attributeToAttribute({
+                                model: { key: "colspan", value: $w("colspan") },
+                                view: "colspan",
+                              }),
                               r
                                 .for("downcast")
                                 .attributeToAttribute({ model: "rowspan", view: "rowspan" }),
-                              r
-                                .for("upcast")
-                                .attributeToAttribute({
-                                  model: { key: "rowspan", value: $w("rowspan") },
-                                  view: "rowspan",
-                                }),
+                              r.for("upcast").attributeToAttribute({
+                                model: { key: "rowspan", value: $w("rowspan") },
+                                view: "rowspan",
+                              }),
                               e.data.mapper.on("modelToViewPosition", function (e, t) {
                                 var n = t.modelPosition.parent,
                                   r = t.modelPosition.nodeBefore;
@@ -74111,7 +74083,7 @@
                           (i.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/join",
+                            url: "http://13.125.105.174/join",
                             data: { id: e, nickName: t, pw: n },
                           })
                         );
@@ -74150,7 +74122,7 @@
                           (t.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/get_user_cards",
+                            url: "http://13.125.105.174/get_user_cards",
                             data: { id: e },
                           })
                         );
@@ -74183,7 +74155,7 @@
                           (t.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/get_user_items",
+                            url: "http://13.125.105.174/get_user_items",
                             data: { id: e },
                           })
                         );
@@ -74210,7 +74182,7 @@
                   for (;;)
                     switch ((e.prev = e.next)) {
                       case 0:
-                        return (e.next = 2), zi({ url: "http://localhost:3000/get_users_point" });
+                        return (e.next = 2), zi({ url: "http://13.125.105.174/get_users_point" });
                       case 2:
                         (r = e.sent),
                           (i = r.data) && t({ type: "GET_ALL_USERS_POINTS", payload: i });
@@ -74241,7 +74213,7 @@
                           (r.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/login",
+                            url: "http://13.125.105.174/login",
                             data: { id: e, pw: t },
                           })
                         );
@@ -74284,7 +74256,7 @@
                           (r.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/loginCheck",
+                            url: "http://13.125.105.174/loginCheck",
                             data: { access_token: e, refresh_token: t, user_id: n },
                           })
                         );
@@ -74322,7 +74294,7 @@
                           (n.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/open_card_pack",
+                            url: "http://13.125.105.174/open_card_pack",
                             data: { id: e },
                           })
                         );
@@ -74358,7 +74330,7 @@
                           (r.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/open_point_pack",
+                            url: "http://13.125.105.174/open_point_pack",
                             data: { id: e, amount: n },
                           })
                         );
@@ -74396,7 +74368,7 @@
                           (a.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/buy_item",
+                            url: "http://13.125.105.174/buy_item",
                             data: { id: e, item: n, price: r, buyAmount: i },
                           })
                         );
@@ -74435,7 +74407,7 @@
                           (s.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/gift_point",
+                            url: "http://13.125.105.174/gift_point",
                             data: { id: e, targetId: t, item: r, price: i, giftAmount: o },
                           })
                         );
@@ -74470,7 +74442,7 @@
                           (n.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/open_rare_card_pack",
+                            url: "http://13.125.105.174/open_rare_card_pack",
                             data: { id: e },
                           })
                         );
@@ -74506,7 +74478,7 @@
                           (n.next = 2),
                           zi({
                             method: "post",
-                            url: "http://localhost:3000/open_ultraRare_card_pack",
+                            url: "http://13.125.105.174/open_ultraRare_card_pack",
                             data: { id: e },
                           })
                         );
@@ -74544,7 +74516,7 @@
                             (o.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/posting",
+                              url: "http://13.125.105.174/posting",
                               data: { id: e, title: t, main: n },
                             })
                           );
@@ -74575,7 +74547,7 @@
                     for (;;)
                       switch ((e.prev = e.next)) {
                         case 0:
-                          return (e.next = 2), zi({ url: "http://localhost:3000/get_all_posts" });
+                          return (e.next = 2), zi({ url: "http://13.125.105.174/get_all_posts" });
                         case 2:
                           (r = e.sent), (i = r.data), t({ type: "GET_ALL_POSTS", payload: i });
                         case 5:
@@ -74603,7 +74575,7 @@
                             (r.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/del_post",
+                              url: "http://13.125.105.174/del_post",
                               data: { postId: e },
                             })
                           );
@@ -74637,7 +74609,7 @@
                             (t.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/increase_visited",
+                              url: "http://13.125.105.174/increase_visited",
                               data: { postId: e },
                             })
                           );
@@ -74666,7 +74638,7 @@
                             (o.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/modify_post",
+                              url: "http://13.125.105.174/modify_post",
                               data: { postId: e, modifiedTitle: t, modifiedMain: n },
                             })
                           );
@@ -74707,7 +74679,7 @@
                             (t.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/get_comments",
+                              url: "http://13.125.105.174/get_comments",
                               data: { postId: e },
                             })
                           );
@@ -74744,7 +74716,7 @@
                             (r.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/register_comments",
+                              url: "http://13.125.105.174/register_comments",
                               data: { postId: e, userId: t, text: n },
                             })
                           );
@@ -74780,7 +74752,7 @@
                             (n.next = 2),
                             zi({
                               method: "post",
-                              url: "http://localhost:3000/del_comments",
+                              url: "http://13.125.105.174/del_comments",
                               data: { commentId: e, postId: t },
                             })
                           );
@@ -78658,11 +78630,11 @@
                                 r.append("file", e),
                                 zi({
                                   method: "post",
-                                  url: "http://localhost:3000/api/upload",
+                                  url: "http://13.125.105.174/api/upload",
                                   data: r,
                                 }).then(function (e) {
                                   t({
-                                    default: "http://localhost:3000/images/".concat(
+                                    default: "http://13.125.105.174/images/".concat(
                                       e.data.filename
                                     ),
                                   });
@@ -80156,14 +80128,12 @@
           pointReducer: ch,
         }),
         dh = (0, Kf.MT)(uh, (0, Qf.Uo)((0, Kf.md)(Jf)));
-      r
-        .createRoot(document.getElementById("root"))
-        .render(
-          (0, Nu.jsx)(C, {
-            store: dh,
-            children: (0, Nu.jsx)(qf, { children: (0, Nu.jsx)(Hf, {}) }),
-          })
-        ),
+      r.createRoot(document.getElementById("root")).render(
+        (0, Nu.jsx)(C, {
+          store: dh,
+          children: (0, Nu.jsx)(qf, { children: (0, Nu.jsx)(Hf, {}) }),
+        })
+      ),
         Wf();
     })();
 })();

@@ -4,7 +4,7 @@ function getComments(postId) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/get_comments",
+      url: "http://13.125.105.174/get_comments",
       data: { postId },
     });
     response
@@ -17,7 +17,7 @@ function registerComment(postId, userId, text) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/register_comments",
+      url: "http://13.125.105.174/register_comments",
       data: { postId, userId, text },
     });
     alert(response.msg);
@@ -32,7 +32,7 @@ function delComment(commentId, postId) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/del_comments",
+      url: "http://13.125.105.174/del_comments",
       data: { commentId, postId },
     });
     alert(response.msg);

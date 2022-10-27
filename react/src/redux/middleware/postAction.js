@@ -3,7 +3,7 @@ import axios from "axios";
 function getAllPosts() {
   return async (dispatch, state) => {
     const { data: response } = await axios({
-      url: "http://localhost:3000/get_all_posts",
+      url: "http://13.125.105.174/get_all_posts",
     });
     // console.log(response);
     dispatch({ type: "GET_ALL_POSTS", payload: response });
@@ -14,7 +14,7 @@ function registerPost(id, title, main, setIsPosting, setOrder) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/posting",
+      url: "http://13.125.105.174/posting",
       data: { id, title, main },
     });
     alert(response.msg);
@@ -30,7 +30,7 @@ function modifyPost(postId, modifiedTitle, modifiedMain, setOrder, setMode) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/modify_post",
+      url: "http://13.125.105.174/modify_post",
       data: { postId, modifiedTitle, modifiedMain },
     });
     alert(response.msg);
@@ -48,7 +48,7 @@ function delPost(postId, setIsPostPop, setOrder) {
   return async (dispatch, state) => {
     const { data: response } = await axios({
       method: "post",
-      url: "http://localhost:3000/del_post",
+      url: "http://13.125.105.174/del_post",
       data: { postId },
     });
     alert(response.msg);
@@ -64,7 +64,7 @@ function increaseVisited(postId) {
   return async (dispatch, state) => {
     await axios({
       method: "post",
-      url: "http://localhost:3000/increase_visited",
+      url: "http://13.125.105.174/increase_visited",
       data: { postId },
     });
   };

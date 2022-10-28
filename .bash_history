@@ -56,3 +56,15 @@ git pull
 git pull
 git pull
 npm start
+npm start
+git pull
+npm start
+npm i
+npm start
+vi package.json
+git pull
+npm i pm2
+vi package.json
+npm start
+git add .
+git commit -m modify

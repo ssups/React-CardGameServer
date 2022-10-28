@@ -1,0 +1,20 @@
+3000 번 포트에 서버 열림
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'react_card_game'
+Executing (default): SHOW INDEX FROM `users` FROM `react_card_game`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'inventorys' AND TABLE_SCHEMA = 'react_card_game'
+Executing (default): SHOW INDEX FROM `inventorys` FROM `react_card_game`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'posts' AND TABLE_SCHEMA = 'react_card_game'
+Executing (default): SHOW INDEX FROM `posts` FROM `react_card_game`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'comments' AND TABLE_SCHEMA = 'react_card_game'
+Executing (default): SHOW INDEX FROM `comments` FROM `react_card_game`
+디비 연결 잘됨
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '눼이스';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;

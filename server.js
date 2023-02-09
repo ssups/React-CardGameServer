@@ -10,7 +10,7 @@ dot.config();
 
 // 프론트 구동중인 포트 접근 허용해주기
 const options = {
-  origin: 'http://3.36.55.166',
+  origin: '*',
 };
 app.use(cors(options));
 

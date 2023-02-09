@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 80;
+const PORT = 4000;
 const { sequelize } = require('./model');
 const cors = require('cors');
 const dot = require('dotenv');

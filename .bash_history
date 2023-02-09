@@ -68,3 +68,12 @@ vi package.json
 npm start
 git add .
 git commit -m modify
+ls -a
+git push
+git add .
+git commit -m modify
+git commit -m modify
+git push
+git push
+git pull
+npm start

@@ -18,3 +18,871 @@ Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `car
 Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
 어세스토큰 살아있음
 Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+어세스토큰 살아있음
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '눼이스';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '눼이스';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+어세스토큰 재발급
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '눼이스';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '눼이스';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+들어옴
+겟유저카드실행
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+어세스토큰 살아있음
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'admin';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+어세스토큰 재발급
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'admin';
+썩은 리프레쉬 토큰
+썩은 리프레쉬 토큰
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`nick_name` = 'test' LIMIT 1;
+Executing (default): INSERT INTO `users` (`user_id`,`user_pw`,`nick_name`,`point`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?);
+Executing (default): INSERT INTO `inventorys` (`user_id`,`card_pack_basic`,`card_pack_rare`,`card_pack_ultraRare`,`point_5000`,`point_10000`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?);
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`nick_name` = '종찬나가신다' LIMIT 1;
+Executing (default): INSERT INTO `users` (`user_id`,`user_pw`,`nick_name`,`point`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?);
+Executing (default): INSERT INTO `inventorys` (`user_id`,`card_pack_basic`,`card_pack_rare`,`card_pack_ultraRare`,`point_5000`,`point_10000`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?);
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`nick_name` = 'woo' LIMIT 1;
+Executing (default): INSERT INTO `users` (`user_id`,`user_pw`,`nick_name`,`point`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?);
+Executing (default): INSERT INTO `inventorys` (`user_id`,`card_pack_basic`,`card_pack_rare`,`card_pack_ultraRare`,`point_5000`,`point_10000`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?);
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+카드팩 열기 실행
+wjh0423
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'wjh0423';
+{
+  cards: null,
+  'Inventories.user_id': 'wjh0423',
+  'Inventories.card_pack_basic': 2,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 1,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:45.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:04:45.000Z
+}
+처음카드 []
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): INSERT INTO `posts` (`id`,`user_id`,`title`,`main`,`visited`,`thumb_nail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+카드팩 열기 실행
+wjh0423
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'wjh0423';
+{
+  cards: '[{"attack":5,"def":3,"average":4,"rarity":"Normal","img":"card5"},{"attack":23,"def":2,"average":12.5,"rarity":"Normal","img":"card4"},{"attack":22,"def":12,"average":17,"rarity":"Rare","img":"card7"},{"attack":10,"def":28,"average":19,"rarity":"Rare","img":"card8"},{"attack":3,"def":6,"average":4.5,"rarity":"Normal","img":"card6"}]',
+  'Inventories.user_id': 'wjh0423',
+  'Inventories.card_pack_basic': 1,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 1,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:45.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:05:10.000Z
+}
+처음카드 [
+  { attack: 5, def: 3, average: 4, rarity: 'Normal', img: 'card5' },
+  { attack: 23, def: 2, average: 12.5, rarity: 'Normal', img: 'card4' },
+  { attack: 22, def: 12, average: 17, rarity: 'Rare', img: 'card7' },
+  { attack: 10, def: 28, average: 19, rarity: 'Rare', img: 'card8' },
+  { attack: 3, def: 6, average: 4.5, rarity: 'Normal', img: 'card6' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+카드팩 열기 실행
+test
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'test';
+{
+  cards: null,
+  'Inventories.user_id': 'test',
+  'Inventories.card_pack_basic': 2,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 1,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:15.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:04:15.000Z
+}
+처음카드 []
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+카드팩 열기 실행
+test
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'test';
+{
+  cards: '[{"attack":2,"def":6,"average":4,"rarity":"Normal","img":"card6"},{"attack":26,"def":2,"average":14,"rarity":"Normal","img":"card5"},{"attack":28,"def":6,"average":17,"rarity":"Rare","img":"card4"},{"attack":10,"def":30,"average":20,"rarity":"Rare","img":"card1"},{"attack":22,"def":27,"average":24.5,"rarity":"Rare","img":"card6"}]',
+  'Inventories.user_id': 'test',
+  'Inventories.card_pack_basic': 1,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 1,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:15.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:05:27.000Z
+}
+처음카드 [
+  { attack: 2, def: 6, average: 4, rarity: 'Normal', img: 'card6' },
+  { attack: 26, def: 2, average: 14, rarity: 'Normal', img: 'card5' },
+  { attack: 28, def: 6, average: 17, rarity: 'Rare', img: 'card4' },
+  { attack: 10, def: 30, average: 20, rarity: 'Rare', img: 'card1' },
+  { attack: 22, def: 27, average: 24.5, rarity: 'Rare', img: 'card6' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+겟유저카드실행
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+포인트팩 열기 실행
+Executing (default): UPDATE `inventorys` SET `point_5000`=`point_5000`- 1,`updatedAt`='2022-10-28 11:05:39' WHERE `user_id` = 'wjh0423'
+Executing (default): UPDATE `users` SET `point`=`point`+ 5000,`updatedAt`='2022-10-28 11:05:39' WHERE `user_id` = 'wjh0423'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=`card_pack_basic`+ '2',`updatedAt`='2022-10-28 11:05:51' WHERE `user_id` = 'whdcks'
+Executing (default): UPDATE `users` SET `point`=`point`- 10000,`updatedAt`='2022-10-28 11:05:51' WHERE `user_id` = 'whdcks'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+포인트팩 열기 실행
+Executing (default): UPDATE `inventorys` SET `point_5000`=`point_5000`- 1,`updatedAt`='2022-10-28 11:06:00' WHERE `user_id` = 'whdcks'
+Executing (default): UPDATE `users` SET `point`=`point`+ 5000,`updatedAt`='2022-10-28 11:06:00' WHERE `user_id` = 'whdcks'
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+카드팩 열기 실행
+whdcks
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'whdcks';
+{
+  cards: null,
+  'Inventories.user_id': 'whdcks',
+  'Inventories.card_pack_basic': 4,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:18.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:06:00.000Z
+}
+처음카드 []
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+카드팩 열기 실행
+whdcks
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'whdcks';
+{
+  cards: '[{"attack":23,"def":7,"average":15,"rarity":"Rare","img":"card4"},{"attack":28,"def":20,"average":24,"rarity":"Rare","img":"card5"},{"attack":3,"def":5,"average":4,"rarity":"Normal","img":"card8"},{"attack":16,"def":6,"average":11,"rarity":"Normal","img":"card7"},{"attack":8,"def":27,"average":17.5,"rarity":"Rare","img":"card8"}]',
+  'Inventories.user_id': 'whdcks',
+  'Inventories.card_pack_basic': 3,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:18.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:06:04.000Z
+}
+처음카드 [
+  { attack: 23, def: 7, average: 15, rarity: 'Rare', img: 'card4' },
+  { attack: 28, def: 20, average: 24, rarity: 'Rare', img: 'card5' },
+  { attack: 3, def: 5, average: 4, rarity: 'Normal', img: 'card8' },
+  { attack: 16, def: 6, average: 11, rarity: 'Normal', img: 'card7' },
+  { attack: 8, def: 27, average: 17.5, rarity: 'Rare', img: 'card8' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+카드팩 열기 실행
+whdcks
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'whdcks';
+{
+  cards: '[{"attack":23,"def":7,"average":15,"rarity":"Rare","img":"card4"},{"attack":28,"def":20,"average":24,"rarity":"Rare","img":"card5"},{"attack":3,"def":5,"average":4,"rarity":"Normal","img":"card8"},{"attack":16,"def":6,"average":11,"rarity":"Normal","img":"card7"},{"attack":8,"def":27,"average":17.5,"rarity":"Rare","img":"card8"},{"attack":23,"def":8,"average":15.5,"rarity":"Rare","img":"card6"},{"attack":2,"def":29,"average":15.5,"rarity":"Rare","img":"card5"},{"attack":8,"def":1,"average":4.5,"rarity":"Normal","img":"card8"},{"attack":30,"def":29,"average":29.5,"rarity":"UltraRare","img":"ultra2"},{"attack":11,"def":26,"average":18.5,"rarity":"Rare","img":"card7"}]',
+  'Inventories.user_id': 'whdcks',
+  'Inventories.card_pack_basic': 2,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:18.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:06:08.000Z
+}
+처음카드 [
+  { attack: 23, def: 7, average: 15, rarity: 'Rare', img: 'card4' },
+  { attack: 28, def: 20, average: 24, rarity: 'Rare', img: 'card5' },
+  { attack: 3, def: 5, average: 4, rarity: 'Normal', img: 'card8' },
+  { attack: 16, def: 6, average: 11, rarity: 'Normal', img: 'card7' },
+  { attack: 8, def: 27, average: 17.5, rarity: 'Rare', img: 'card8' },
+  { attack: 23, def: 8, average: 15.5, rarity: 'Rare', img: 'card6' },
+  { attack: 2, def: 29, average: 15.5, rarity: 'Rare', img: 'card5' },
+  { attack: 8, def: 1, average: 4.5, rarity: 'Normal', img: 'card8' },
+  {
+    attack: 30,
+    def: 29,
+    average: 29.5,
+    rarity: 'UltraRare',
+    img: 'ultra2'
+  },
+  { attack: 11, def: 26, average: 18.5, rarity: 'Rare', img: 'card7' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+카드팩 열기 실행
+whdcks
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'whdcks';
+{
+  cards: '[{"attack":23,"def":7,"average":15,"rarity":"Rare","img":"card4"},{"attack":28,"def":20,"average":24,"rarity":"Rare","img":"card5"},{"attack":3,"def":5,"average":4,"rarity":"Normal","img":"card8"},{"attack":16,"def":6,"average":11,"rarity":"Normal","img":"card7"},{"attack":8,"def":27,"average":17.5,"rarity":"Rare","img":"card8"},{"attack":23,"def":8,"average":15.5,"rarity":"Rare","img":"card6"},{"attack":2,"def":29,"average":15.5,"rarity":"Rare","img":"card5"},{"attack":8,"def":1,"average":4.5,"rarity":"Normal","img":"card8"},{"attack":30,"def":29,"average":29.5,"rarity":"UltraRare","img":"ultra2"},{"attack":11,"def":26,"average":18.5,"rarity":"Rare","img":"card7"},{"attack":25,"def":2,"average":13.5,"rarity":"Normal","img":"card7"},{"attack":4,"def":1,"average":2.5,"rarity":"Normal","img":"card4"},{"attack":3,"def":25,"average":14,"rarity":"Normal","img":"card4"},{"attack":28,"def":23,"average":25.5,"rarity":"UltraRare","img":"ultra1"},{"attack":26,"def":8,"average":17,"rarity":"Rare","img":"card2"}]',
+  'Inventories.user_id': 'whdcks',
+  'Inventories.card_pack_basic': 1,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T02:04:18.000Z,
+  'Inventories.updatedAt': 2022-10-28T02:06:13.000Z
+}
+처음카드 [
+  { attack: 23, def: 7, average: 15, rarity: 'Rare', img: 'card4' },
+  { attack: 28, def: 20, average: 24, rarity: 'Rare', img: 'card5' },
+  { attack: 3, def: 5, average: 4, rarity: 'Normal', img: 'card8' },
+  { attack: 16, def: 6, average: 11, rarity: 'Normal', img: 'card7' },
+  { attack: 8, def: 27, average: 17.5, rarity: 'Rare', img: 'card8' },
+  { attack: 23, def: 8, average: 15.5, rarity: 'Rare', img: 'card6' },
+  { attack: 2, def: 29, average: 15.5, rarity: 'Rare', img: 'card5' },
+  { attack: 8, def: 1, average: 4.5, rarity: 'Normal', img: 'card8' },
+  {
+    attack: 30,
+    def: 29,
+    average: 29.5,
+    rarity: 'UltraRare',
+    img: 'ultra2'
+  },
+  { attack: 11, def: 26, average: 18.5, rarity: 'Rare', img: 'card7' },
+  { attack: 25, def: 2, average: 13.5, rarity: 'Normal', img: 'card7' },
+  { attack: 4, def: 1, average: 2.5, rarity: 'Normal', img: 'card4' },
+  { attack: 3, def: 25, average: 14, rarity: 'Normal', img: 'card4' },
+  {
+    attack: 28,
+    def: 23,
+    average: 25.5,
+    rarity: 'UltraRare',
+    img: 'ultra1'
+  },
+  { attack: 26, def: 8, average: 17, rarity: 'Rare', img: 'card2' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'test';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'test';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'a';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '민섭';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '민섭';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '민섭';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '민섭';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '민섭';
+어세스토큰 살아있음
+Executing (default): INSERT INTO `posts` (`id`,`user_id`,`title`,`main`,`visited`,`thumb_nail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): INSERT INTO `posts` (`id`,`user_id`,`title`,`main`,`visited`,`thumb_nail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): UPDATE `inventorys` SET `card_pack_rare`=`card_pack_rare`+ '1',`updatedAt`='2022-10-28 11:08:42' WHERE `user_id` = 'wjh0423'
+Executing (default): UPDATE `users` SET `point`=`point`- 10000,`updatedAt`='2022-10-28 11:08:42' WHERE `user_id` = 'wjh0423'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+레어 카드팩 열기 실행
+Executing (default): SELECT `User`.`cards`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_rare`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 11:09:13' WHERE `id` = 18
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '민섭';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '민섭';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 11:10:01' WHERE `id` = 18
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 11:10:03' WHERE `id` = 18
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 11:10:05' WHERE `id` = 18
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): INSERT INTO `comments` (`id`,`post_id`,`writer`,`text`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = '민섭';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = '민섭';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 16 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): INSERT INTO `comments` (`id`,`post_id`,`writer`,`text`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?);
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 16 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 14 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 11:11:03' WHERE `id` = 14
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'whdcks';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'whdcks';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'wjh0423';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'wjh0423';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+썩은 리프레쉬 토큰
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`nick_name` = '경일' LIMIT 1;
+Executing (default): INSERT INTO `users` (`user_id`,`user_pw`,`nick_name`,`point`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?);
+Executing (default): INSERT INTO `inventorys` (`user_id`,`card_pack_basic`,`card_pack_rare`,`card_pack_ultraRare`,`point_5000`,`point_10000`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?);
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+어세스토큰 살아있음
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=`card_pack_basic`+ '1',`updatedAt`='2022-10-28 16:13:33' WHERE `user_id` = 'kga'
+Executing (default): UPDATE `users` SET `point`=`point`- 5000,`updatedAt`='2022-10-28 16:13:33' WHERE `user_id` = 'kga'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+포인트팩 열기 실행
+Executing (default): UPDATE `inventorys` SET `point_5000`=`point_5000`- 1,`updatedAt`='2022-10-28 16:13:44' WHERE `user_id` = 'kga'
+Executing (default): UPDATE `users` SET `point`=`point`+ 5000,`updatedAt`='2022-10-28 16:13:44' WHERE `user_id` = 'kga'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+카드팩 열기 실행
+kga
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'kga';
+{
+  cards: null,
+  'Inventories.user_id': 'kga',
+  'Inventories.card_pack_basic': 3,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T07:12:16.000Z,
+  'Inventories.updatedAt': 2022-10-28T07:13:44.000Z
+}
+처음카드 []
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+어세스토큰 살아있음
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 13 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 16:14:44' WHERE `id` = 13
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'kga';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'kga';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`nick_name` = 'Hyeok' LIMIT 1;
+Executing (default): INSERT INTO `users` (`user_id`,`user_pw`,`nick_name`,`point`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?);
+Executing (default): INSERT INTO `inventorys` (`user_id`,`card_pack_basic`,`card_pack_rare`,`card_pack_ultraRare`,`point_5000`,`point_10000`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?);
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+썩은 리프레쉬 토큰
+썩은 리프레쉬 토큰
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 16 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 16:40:28' WHERE `id` = 16
+Executing (default): INSERT INTO `posts` (`id`,`user_id`,`title`,`main`,`visited`,`thumb_nail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 18 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): UPDATE `posts` SET `visited`=`visited`+ 1,`updatedAt`='2022-10-28 16:41:12' WHERE `id` = 18
+Executing (default): SELECT `id`, `post_id`, `writer`, `text`, `createdAt`, `updatedAt` FROM `comments` AS `Comment` WHERE `Comment`.`post_id` = 19 ORDER BY `Comment`.`updatedAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+포인트팩 열기 실행
+Executing (default): UPDATE `inventorys` SET `point_5000`=`point_5000`- 1,`updatedAt`='2022-10-28 16:41:51' WHERE `user_id` = 'Hyeok'
+Executing (default): UPDATE `users` SET `point`=`point`+ 5000,`updatedAt`='2022-10-28 16:41:51' WHERE `user_id` = 'Hyeok'
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+카드팩 열기 실행
+Hyeok
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'Hyeok';
+{
+  cards: null,
+  'Inventories.user_id': 'Hyeok',
+  'Inventories.card_pack_basic': 2,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T07:37:00.000Z,
+  'Inventories.updatedAt': 2022-10-28T07:41:51.000Z
+}
+처음카드 []
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+카드팩 열기 실행
+Hyeok
+Executing (default): SELECT `User`.`cards`, `Inventories`.`user_id` AS `Inventories.user_id`, `Inventories`.`card_pack_basic` AS `Inventories.card_pack_basic`, `Inventories`.`card_pack_rare` AS `Inventories.card_pack_rare`, `Inventories`.`card_pack_ultraRare` AS `Inventories.card_pack_ultraRare`, `Inventories`.`point_5000` AS `Inventories.point_5000`, `Inventories`.`point_10000` AS `Inventories.point_10000`, `Inventories`.`createdAt` AS `Inventories.createdAt`, `Inventories`.`updatedAt` AS `Inventories.updatedAt` FROM `users` AS `User` LEFT OUTER JOIN `inventorys` AS `Inventories` ON `User`.`user_id` = `Inventories`.`user_id` WHERE `User`.`user_id` = 'Hyeok';
+{
+  cards: '[{"attack":26,"def":15,"average":20.5,"rarity":"Rare","img":"card3"},{"attack":1,"def":27,"average":14,"rarity":"Normal","img":"card6"},{"attack":7,"def":12,"average":9.5,"rarity":"Normal","img":"card4"},{"attack":21,"def":29,"average":25,"rarity":"UltraRare","img":"ultra2"},{"attack":22,"def":26,"average":24,"rarity":"Rare","img":"card6"}]',
+  'Inventories.user_id': 'Hyeok',
+  'Inventories.card_pack_basic': 1,
+  'Inventories.card_pack_rare': 0,
+  'Inventories.card_pack_ultraRare': 0,
+  'Inventories.point_5000': 0,
+  'Inventories.point_10000': 0,
+  'Inventories.createdAt': 2022-10-28T07:37:00.000Z,
+  'Inventories.updatedAt': 2022-10-28T07:41:55.000Z
+}
+처음카드 [
+  { attack: 26, def: 15, average: 20.5, rarity: 'Rare', img: 'card3' },
+  { attack: 1, def: 27, average: 14, rarity: 'Normal', img: 'card6' },
+  { attack: 7, def: 12, average: 9.5, rarity: 'Normal', img: 'card4' },
+  {
+    attack: 21,
+    def: 29,
+    average: 25,
+    rarity: 'UltraRare',
+    img: 'ultra2'
+  },
+  { attack: 22, def: 26, average: 24, rarity: 'Rare', img: 'card6' }
+]
+Executing (default): UPDATE `users` SET `cards`=?,`updatedAt`=? WHERE `user_id` = ?
+Executing (default): UPDATE `inventorys` SET `card_pack_basic`=?,`updatedAt`=? WHERE `user_id` = ?
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): INSERT INTO `posts` (`id`,`user_id`,`title`,`main`,`visited`,`thumb_nail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+Executing (default): SELECT `Post`.`id`, `Post`.`user_id`, `Post`.`title`, `Post`.`main`, `Post`.`visited`, `Post`.`thumb_nail`, `Post`.`createdAt`, `Post`.`updatedAt`, `Comments`.`id` AS `Comments.id`, `Comments`.`post_id` AS `Comments.post_id`, `Comments`.`writer` AS `Comments.writer`, `Comments`.`text` AS `Comments.text`, `Comments`.`createdAt` AS `Comments.createdAt`, `Comments`.`updatedAt` AS `Comments.updatedAt` FROM `posts` AS `Post` LEFT OUTER JOIN `comments` AS `Comments` ON `Post`.`id` = `Comments`.`post_id` ORDER BY `Post`.`createdAt` DESC;
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+겟유저카드실행
+Executing (default): SELECT `cards` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+Executing (default): SELECT `user_id`, `user_pw`, `nick_name`, `cards`, `point`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`user_id` = 'Hyeok';
+들어옴
+Executing (default): SELECT `user_id`, `card_pack_basic`, `card_pack_rare`, `card_pack_ultraRare`, `point_5000`, `point_10000`, `createdAt`, `updatedAt` FROM `inventorys` AS `Inventory` WHERE `Inventory`.`user_id` = 'Hyeok';
+어세스토큰 살아있음
+Executing (default): SELECT `point`, `user_id` FROM `users` AS `User` ORDER BY `User`.`point` DESC;

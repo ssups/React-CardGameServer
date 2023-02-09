@@ -21,7 +21,7 @@ sequelize
 
 // 프론트 구동중인 포트 접근 허용해주기
 const options = {
-  origin: 'http://13.125.105.174',
+  origin: '*',
 };
 app.use(cors(options));
 app.use(express.json()); // 객체형태 전달받을때 해석해주는 기능

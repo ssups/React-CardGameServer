@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 const { sequelize } = require('./model');
 const cors = require('cors');
 const dot = require('dotenv');
@@ -21,7 +21,7 @@ sequelize
 
 // 프론트 구동중인 포트 접근 허용해주기
 const options = {
-  origin: '*',
+  origin: 'http://3.36.55.166',
 };
 app.use(cors(options));
 app.use(express.json()); // 객체형태 전달받을때 해석해주는 기능

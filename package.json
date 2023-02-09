@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "pm2 start  node server.js"
+    "start": "pm2 start node server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

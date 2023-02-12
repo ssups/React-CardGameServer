@@ -29,7 +29,6 @@ app.use(express.json()); // 객체형태 전달받을때 해석해주는 기능
 
 // 리액트 열기
 app.use(express.static(path.join(__dirname, 'react/build')));
-app.use(express.static(path.join(__dirname, 'react/public')));
 // app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'react/build/index.html'));
 // });
@@ -64,7 +63,7 @@ app.use(comment);
 
 // 위에처럼 하나하나 안할라면 밑에 * 이걸로 전역 get 걸어놓고 데이터 요청방식 전부 post로 바꾸면됨
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'react/public/index.html'));
+  res.sendFile(path.join(__dirname, 'react/build/index.html'));
 });
 // 정적폴더 경로설정`
 app.use('/images', express.static(path.join(__dirname, '/images')));

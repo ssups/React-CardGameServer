@@ -1,9 +1,13 @@
+const dot = require('dotenv');
+const { env } = require('process');
+dot.config();
+
 const config = {
   dev: {
     username: 'root',
-    password: 'Admin123!',
+    password: env.process.DB_PW,
     database: 'react_card_game',
-    // host: "127.0.0.1",
+    host: env.process.HOST,
     host: 'ec2-3-36-55-166.ap-northeast-2.compute.amazonaws.com',
     dialect: 'mysql',
     timezone: '+09:00',

@@ -29,27 +29,6 @@ app.use(express.json()); // 객체형태 전달받을때 해석해주는 기능
 
 // 리액트 열기
 app.use(express.static(path.join(__dirname, 'react/build')));
-// app.get('/', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/main', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/shop', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/card_book', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/public_board', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/notice_board', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
-// app.get('/mypage', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'react/build/index.html'));
-// });
 
 // 라우터
 const { user, login, card, item, image, post, comment } = require('./routers');

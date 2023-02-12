@@ -61,9 +61,10 @@ app.use(image);
 app.use(post);
 app.use(comment);
 
+// 정적폴더 경로설정`
+app.use('/images', express.static(path.join(__dirname, '/images')));
+
 // 위에처럼 하나하나 안할라면 밑에 * 이걸로 전역 get 걸어놓고 데이터 요청방식 전부 post로 바꾸면됨
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'react/build/index.html'));
 });
-// 정적폴더 경로설정`
-app.use('/images', express.static(path.join(__dirname, '/images')));

@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { User, Inventory } = require("../model");
-const { Card, RareCard, UltraRareCard } = require("../functions/card");
+const { Card, RareCard, UltraRareCard } = require("../functions/Card");
 
 router.post("/get_user_cards", async (req, res) => {
   console.log("겟유저카드실행");

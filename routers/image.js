@@ -23,7 +23,9 @@ const upload = multer({
 
 router.post("/api/upload", upload.single("file"), (req, res) => {
   console.log("들어옴");
-  res.status(200).json(req.file);
+  // res.status(200).json(req.file);
+  // console.log(req.file);
+  res.send(req.file);
 });
 
 module.exports = router;

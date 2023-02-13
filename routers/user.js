@@ -26,7 +26,7 @@ router.post("/join", async (req, res) => {
         user_id: id,
         nick_name: nickName,
         user_pw: encrypted,
-        point: 10000,
+        point,
       })
         .then(() =>
           Inventory.create({

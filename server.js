@@ -28,7 +28,7 @@ sequelize
 app.use(express.json()); // 객체형태 전달받을때 해석해주는 기능
 
 // 리액트 열기
-app.use(express.static(path.join(__dirname, 'react/build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // 라우터
 const { user, login, card, item, image, post, comment } = require('./routers');
@@ -45,5 +45,5 @@ app.use('/images', express.static(path.join(__dirname, '/images')));
 
 // 이거 제일밑에 해줘야 다른 get 방식의 경로들 다 먹히고 나서 나머지만 밑에꺼 적영됨
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'react/build/index.html'));
+  res.sendFile(path.join(__dirname, 'build/index.html'));
 });

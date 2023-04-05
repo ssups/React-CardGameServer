@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 80;
+const PORT = 81;
 const { sequelize } = require('./model');
 const cors = require('cors');
 const dot = require('dotenv');
@@ -10,14 +10,9 @@ dot.config();
 
 // 프론트 구동중인 포트 접근 허용해주기
 const options = {
-  origin: '*',
+  origin: ['http://card.ssups.shop', 'https://card.ssups.shop'],
 };
 app.use(cors(options));
-
-// 서버열기
-app.listen(PORT, () => {
-  console.log(PORT, '번 포트에 서버 열림');
-});
 
 // 디비연결
 sequelize
@@ -47,3 +42,10 @@ app.use('/images', express.static(path.join(__dirname, '/images')));
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build/index.html'));
 });
+
+// 서버열기
+app.listen(PORT, () => {
+  console.log(`react_card ${PORT}번 포트에 열림`);
+});
+
+module.exports = app;

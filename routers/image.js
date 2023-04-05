@@ -1,12 +1,12 @@
-const router = require("express").Router();
-const multer = require("multer");
-const path = require("path");
+const router = require('express').Router();
+const multer = require('multer');
+const path = require('path');
 
 const upload = multer({
   storage: multer.diskStorage({
     // 파일 저장될 경로
     destination(req, file, callback) {
-      callback(null, "images");
+      callback(null, path.join(__dirname, '../images'));
     },
     filename(req, file, callback) {
       // 파일 확장자
@@ -21,10 +21,7 @@ const upload = multer({
   }),
 });
 
-router.post("/api/upload", upload.single("file"), (req, res) => {
-  console.log("들어옴");
-  // res.status(200).json(req.file);
-  // console.log(req.file);
+router.post('/api/upload', upload.single('file'), (req, res) => {
   res.send(req.file);
 });
 

@@ -4,6 +4,7 @@ const parser = require('html-react-parser');
 const { raw } = require('express');
 
 router.get('/get_all_posts', async (req, res) => {
+  // console.log('getall');
   const allPosts = await Post.findAll({
     order: [['createdAt', 'desc']],
     include: { model: Comment },
